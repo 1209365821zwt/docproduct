@@ -1,0 +1,45 @@
+#root,html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin:0 ;
+}
+.App{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+.ant-layout{
+    width: 100%;
+    height: 100%;  
+    display: flex!important;
+    flex-direction: column!important;
+    
+}
+.ant-layout-header{
+    height: 70px!important;
+    background: #fff!important;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.ant-layout-content{
+    width: 100%;
+    flex: 1!important;
+    overflow: auto;
+}
+.ant-layout-footer{
+    width: 100%;
+    height: 400px;
+    background: #333;
+   position: relative;
+   bottom: 0;
+}

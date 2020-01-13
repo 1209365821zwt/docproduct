@@ -1,0 +1,10 @@
+.imgicon{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5% auto;
+}
+.imgicon img{
+   width: 210px;
+   height: 210px;
+}
